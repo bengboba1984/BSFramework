@@ -1,0 +1,27 @@
+debug: true
+logging:
+  level:
+    root: debug
+    tech:
+      wetech:
+        admin:
+          mapper: trace
+server:
+  port: 8080
+  servlet:
+    context-path: /BSFramework
+spring:
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    druid:
+      initial-size: 1
+      max-active: 20
+      min-idle: 1
+      stat-view-servlet:
+        allow: true
+      test-on-borrow: true
+    password: admin
+    url: jdbc:mysql://localhost:3306/wetech
+    username: root
+  thymeleaf:
+    cache: false
