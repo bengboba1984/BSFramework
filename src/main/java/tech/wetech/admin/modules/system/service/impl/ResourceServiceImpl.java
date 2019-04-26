@@ -43,7 +43,7 @@ public class ResourceServiceImpl extends BaseService<Resource> implements Resour
     public Set<String> queryPermissions(Set<Long> resourceIds) {
         Set<String> permissions = new HashSet<>();
         for (Long resourceId : resourceIds) {
-            Resource resource = resourceMapper.selectOne(new Resource().setId(resourceId));
+            Resource resource = resourceMapper.selectOne(new Resource().setId(resourceId).setAvailable(true));
             if (resource != null && !StringUtils.isEmpty(resource.getPermission())) {
                 permissions.add(resource.getPermission());
             }
