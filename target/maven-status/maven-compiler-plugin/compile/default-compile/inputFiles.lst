@@ -19,6 +19,7 @@ E:\Users\shuhua_dai\git\BSFramework\src\main\java\tech\wetech\admin\modules\syst
 E:\Users\shuhua_dai\git\BSFramework\src\main\java\tech\wetech\admin\modules\system\dto\ResourceDto.java
 E:\Users\shuhua_dai\git\BSFramework\src\main\java\tech\wetech\admin\modules\system\service\impl\GroupServiceImpl.java
 E:\Users\shuhua_dai\git\BSFramework\src\main\java\tech\wetech\admin\modules\base\web\BaseCrudController.java
+E:\Users\shuhua_dai\git\BSFramework\src\main\java\tech\wetech\admin\modules\system\mapper\ProductMapper.java
 E:\Users\shuhua_dai\git\BSFramework\src\main\java\tech\wetech\admin\config\MyBatisConfig.java
 E:\Users\shuhua_dai\git\BSFramework\src\main\java\tech\wetech\admin\modules\system\dto\RoleDto.java
 E:\Users\shuhua_dai\git\BSFramework\src\main\java\tech\wetech\admin\core\utils\SpringUtils.java
@@ -36,8 +37,11 @@ E:\Users\shuhua_dai\git\BSFramework\src\main\java\tech\wetech\admin\modules\syst
 E:\Users\shuhua_dai\git\BSFramework\src\main\java\tech\wetech\admin\core\utils\BaseController.java
 E:\Users\shuhua_dai\git\BSFramework\src\main\java\tech\wetech\admin\core\exception\GlobalExceptionHandler.java
 E:\Users\shuhua_dai\git\BSFramework\src\main\java\tech\wetech\admin\WetechAdminApplication.java
+E:\Users\shuhua_dai\git\BSFramework\src\main\java\tech\wetech\admin\modules\system\po\Product.java
+E:\Users\shuhua_dai\git\BSFramework\src\main\java\tech\wetech\admin\modules\system\service\impl\ProductServiceImpl.java
 E:\Users\shuhua_dai\git\BSFramework\src\main\java\tech\wetech\admin\modules\system\biz\package-info.java
 E:\Users\shuhua_dai\git\BSFramework\src\main\java\tech\wetech\admin\config\EhCacheConfig.java
+E:\Users\shuhua_dai\git\BSFramework\src\main\java\tech\wetech\admin\modules\system\service\ProductService.java
 E:\Users\shuhua_dai\git\BSFramework\src\main\java\tech\wetech\admin\modules\system\mapper\package-info.java
 E:\Users\shuhua_dai\git\BSFramework\src\main\java\tech\wetech\admin\modules\system\dto\package-info.java
 E:\Users\shuhua_dai\git\BSFramework\src\main\java\tech\wetech\admin\core\utils\PageResultSet.java
@@ -66,6 +70,7 @@ E:\Users\shuhua_dai\git\BSFramework\src\main\java\tech\wetech\admin\modules\syst
 E:\Users\shuhua_dai\git\BSFramework\src\main\java\tech\wetech\admin\modules\base\service\impl\BaseService.java
 E:\Users\shuhua_dai\git\BSFramework\src\main\java\tech\wetech\admin\core\aspect\SystemLogAspect.java
 E:\Users\shuhua_dai\git\BSFramework\src\main\java\tech\wetech\admin\core\utils\ZipUtils.java
+E:\Users\shuhua_dai\git\BSFramework\src\main\java\tech\wetech\admin\modules\system\web\ProductController.java
 E:\Users\shuhua_dai\git\BSFramework\src\main\java\tech\wetech\admin\config\Swagger2Config.java
 E:\Users\shuhua_dai\git\BSFramework\src\main\java\tech\wetech\admin\modules\base\web\BaseController.java
 E:\Users\shuhua_dai\git\BSFramework\src\main\java\tech\wetech\admin\modules\base\service\IService.java

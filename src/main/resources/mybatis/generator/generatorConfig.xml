@@ -27,46 +27,47 @@
         <javaClientGenerator targetPackage="tech.wetech.admin.modules.example.mapper" targetProject="src/main/java"
                              type="XMLMAPPER"/>
 
-        <table schema="wetech_admin" tableName="sys_group" domainObjectName="Group">
+        <table schema="wetech" tableName="sys_group" domainObjectName="Group">
             <!--mysql 配置-->
             <generatedKey column="id" sqlStatement="Mysql" identity="true"/>
             <!--oracle 配置-->
             <!--<generatedKey column="id" sqlStatement="select SEQ_{1}.nextval from dual" identity="false" type="pre"/>-->
         </table>
 
-        <table schema="wetech_admin" tableName="sys_log" domainObjectName="Log">
+        <table schema="wetech" tableName="sys_log" domainObjectName="Log">
             <!--mysql 配置-->
             <generatedKey column="id" sqlStatement="Mysql" identity="true"/>
             <!--oracle 配置-->
             <!--<generatedKey column="id" sqlStatement="select SEQ_{1}.nextval from dual" identity="false" type="pre"/>-->
         </table>
 
-        <table schema="wetech_admin" tableName="sys_organization" domainObjectName="Organization">
+        <table schema="wetech" tableName="sys_organization" domainObjectName="Organization">
             <!--mysql 配置-->
             <generatedKey column="id" sqlStatement="Mysql" identity="true"/>
             <!--oracle 配置-->
             <!--<generatedKey column="id" sqlStatement="select SEQ_{1}.nextval from dual" identity="false" type="pre"/>-->
         </table>
 
-        <table schema="wetech_admin" tableName="sys_resource" domainObjectName="Resource">
+        <table schema="wetech" tableName="sys_resource" domainObjectName="Resource">
             <!--mysql 配置-->
             <generatedKey column="id" sqlStatement="Mysql" identity="true"/>
             <!--oracle 配置-->
             <!--<generatedKey column="id" sqlStatement="select SEQ_{1}.nextval from dual" identity="false" type="pre"/>-->
         </table>
 
-        <table schema="wetech_admin" tableName="sys_role" domainObjectName="Role">
+        <table schema="wetech" tableName="sys_role" domainObjectName="Role">
             <!--mysql 配置-->
             <generatedKey column="id" sqlStatement="Mysql" identity="true"/>
             <!--oracle 配置-->
             <!--<generatedKey column="id" sqlStatement="select SEQ_{1}.nextval from dual" identity="false" type="pre"/>-->
         </table>
 
-        <table schema="wetech_admin" tableName="sys_user" domainObjectName="User">
+        <table schema="wetech" tableName="sys_user" domainObjectName="User">
             <!--mysql 配置-->
             <generatedKey column="id" sqlStatement="Mysql" identity="true"/>
             <!--oracle 配置-->
             <!--<generatedKey column="id" sqlStatement="select SEQ_{1}.nextval from dual" identity="false" type="pre"/>-->
         </table>
+        
     </context>
 </generatorConfiguration>

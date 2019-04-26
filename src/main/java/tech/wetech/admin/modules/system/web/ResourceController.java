@@ -24,9 +24,14 @@ public class ResourceController extends BaseCrudController<Resource> {
     @Autowired
     private ResourceService resourceService;
 
+//    @ModelAttribute("/types")
+//    public ResourceType[] resourceTypes() {
+//        return ResourceType.values();
+//    }
     @ModelAttribute("/types")
-    public ResourceType[] resourceTypes() {
-        return ResourceType.values();
+    public void resourceTypes(Model model) {
+        //return ResourceType.values();
+    	model.addAttribute("types", ResourceType.values());
     }
 
     @RequiresPermissions("resource:view")

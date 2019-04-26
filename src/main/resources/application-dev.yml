@@ -1,11 +1,11 @@
 debug: true
 logging:
   level:
-    root: debug
+    root: info
     tech:
       wetech:
         admin:
-          mapper: trace
+          mapper: info
 server:
   port: 8080
   servlet:
